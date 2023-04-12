@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4066FA;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+}
+
+.navbar-logo{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-links{
+    display: inline-block;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4066FA;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    list-style: none;
+}
+
+.footer-links li{
+    color: white;
+    text-decoration: none;
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    width: 200px;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    background-color: lightskyblue;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
